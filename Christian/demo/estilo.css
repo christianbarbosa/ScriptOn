@@ -81,13 +81,12 @@ button{
 }
 
 .box{
-  font-size: 10px;
-  width: 33%;
+  width: 20%;
   float: left;
 }
 
 .senha{
-  font-size: 15px;
+  font-size: 11px;
 }
 
 .btn{
