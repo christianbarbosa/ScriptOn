@@ -1,0 +1,158 @@
+
+*{font-family: arial;}
+
+    body{
+      background: black;
+      background-image: url("img/fundotop.gif");
+      background-repeat: round;
+    }
+    	
+    .container{
+      margin-top: 5px;
+      margin-bottom: 5px; 
+      padding: 5px;
+      border-radius: 10px;
+      border: solid red;
+      box-shadow: 0 0 20px red;
+    }
+
+    label{
+      color: #ffff;
+      font-family: cursive;
+      box-shadow: 0 0 10px red;
+      padding: 2.5px;
+      background:  black;
+      border-radius: 5px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin: 5px auto;
+
+    }
+
+    .form-control{
+       line-height: 18px;
+}
+
+    }
+
+    .naomuda{
+      color: black;
+      font-weight: bolder;
+      text-align: center;
+      
+    }
+
+    .parcial{
+      color: #ffff;
+      font-family: cursive;
+      box-shadow: 0 0 10px red;
+      padding: 2.5px;
+      background:  black;
+      border-radius: 5px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin: 5px auto;
+    }
+
+h6{
+font-weight: bolder;
+color: red;
+font-size:20px;
+text-align: center;
+}
+
+.bot{
+  margin: 10px auto;
+}
+
+p{
+ line-height: 1.2;
+ color: white;
+}
+
+button{
+  background: #666;
+  margin: 5px auto;
+  margin-left: 10px;
+  box-shadow: 0 0 10px black;
+  color: white;
+  border: solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.box{
+  font-size: 10px;
+  width: 33%;
+  float: left;
+}
+
+.senha{
+  font-size: 15px;
+}
+
+.btn{
+ color: white;
+ background: #666;
+ width: 30%; 
+ height: 75px;
+ font-size: 13px;
+}
+
+.centra{
+  text-align: center;
+}
+.red{
+  background: #800000;
+}
+
+.ninja{
+  background-image: url("img/200.gif");
+  background-size: 100%;
+  color: red;
+}
+
+.tarta{
+  background-image: url("img/tarta.gif");
+  background-size: 100%;
+}
+
+.dia{
+  background-image: url("img/dia.gif");
+  background-size: 100%;
+}
+
+.noite{
+  background-image: url("img/noite.gif");
+  background-size: 100%;
+}
+
+.cpe{
+  background-image: url("img/1195.jpg");
+  background-size: 100%;
+  color: red;
+}
+.cance{
+  background-image: url("img/cancelamento.gif");
+  background-size: 100%;
+}
+.lent{
+  background-image: url("img/lent.gif");
+  background-size: 100%;
+}
+
+.toc{
+  color: red;
+  height: 30px;
+  width: 16.5%;
+}
+
+#foo{
+  width: 80%;
+  height: 30px;
+  border: solid red;
+  box-shadow: 0 0 15px red;
+}
+
+.madaragay{
+  text-shadow: 0 0 5px red;
+}
