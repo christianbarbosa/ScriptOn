@@ -139,6 +139,12 @@ button{
   background-size: 100%;
 }
 
+.via2{
+  background-image: url("img/2via.gif");
+  background-size: 100%;
+  color: red;
+}
+
 .toc{
   color: red;
   height: 30px;
@@ -154,4 +160,9 @@ button{
 
 .madaragay{
   text-shadow: 0 0 5px red;
+}
+
+.gale{
+  width: 25%;
+  border: solid red;
 }
