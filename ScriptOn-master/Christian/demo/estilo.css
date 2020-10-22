@@ -1,9 +1,9 @@
+*{padding: 0; margin: 0 auto}   
 
-*{font-family: arial;}
 
     body{
       background: black;
-      background-image: url("img/fundotop.gif");
+      background-image: url("img/back2.jpg");
       background-repeat: round;
     }
     	
@@ -13,7 +13,8 @@
       padding: 5px;
       border-radius: 10px;
       border: solid red;
-      box-shadow: 0 0 20px red;
+      box-shadow: 0 0 15px red;
+      background: black;
     }
 
     label{
@@ -21,7 +22,7 @@
       font-family: cursive;
       box-shadow: 0 0 10px red;
       padding: 2.5px;
-      background:  black;
+      background: black;
       border-radius: 5px;
       padding-right: 5px;
       padding-left: 5px;
@@ -33,13 +34,11 @@
        line-height: 18px;
 }
 
-    }
-
-    .naomuda{
-      color: black;
+    .row{
+      color: white;
       font-weight: bolder;
       text-align: center;
-      
+      font-size: 13px;
     }
 
     .parcial{
@@ -70,14 +69,11 @@ p{
  color: white;
 }
 
-button{
-  background: #666;
+button {
   margin: 5px auto;
   margin-left: 10px;
-  box-shadow: 0 0 10px black;
-  color: white;
   border: solid red;
-  box-shadow: 0 0 10px red;
+  box-shadow: 0 0 5px red;
 }
 
 .box{
@@ -90,79 +86,31 @@ button{
 }
 
 .btn{
- color: white;
- background: #666;
- width: 30%; 
- height: 75px;
+ width: 20%; 
+ height: 85px;
  font-size: 13px;
 }
 
 .centra{
   text-align: center;
 }
-.red{
-  background: #800000;
-}
 
 .ninja{
   background-image: url("img/200.gif");
   background-size: 100%;
-  color: red;
-}
-
-.tarta{
-  background-image: url("img/tarta.gif");
-  background-size: 100%;
-}
-
-.dia{
-  background-image: url("img/dia.gif");
-  background-size: 100%;
-}
-
-.noite{
-  background-image: url("img/noite.gif");
-  background-size: 100%;
-}
-
-.cpe{
-  background-image: url("img/1195.jpg");
-  background-size: 100%;
-  color: red;
-}
-.cance{
-  background-image: url("img/cancelamento.gif");
-  background-size: 100%;
-}
-.lent{
-  background-image: url("img/lent.gif");
-  background-size: 100%;
-}
-
-.via2{
-  background-image: url("img/2via.gif");
-  background-size: 100%;
-  color: red;
 }
 
 .toc{
-  color: red;
-  height: 30px;
+  height: 34px;
   width: 16.5%;
+  background: red;
 }
 
 #foo{
   width: 80%;
-  height: 30px;
-  border: solid red;
-  box-shadow: 0 0 15px red;
+  height: 32px;
+  box-shadow: 0 0 12px red;
 }
-
-.madaragay{
-  text-shadow: 0 0 5px red;
-}
-
-.gale{
-  width: 25%;
+.separacao {
   border: solid red;
 }
