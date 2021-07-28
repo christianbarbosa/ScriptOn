@@ -10,13 +10,27 @@
 
     <link rel="stylesheet" type="text/css" href="estilo.css">
 
+  <script src='jquery-1.8.3.min.js'></script>
+  <script src='jquery.elevatezoom.js'></script>
+
 <title>O Christian é o Brabo</title>
 
   </head>
   <body>
 
+
     <div class="container">
   <div class="col">
+<img id="zoom_01" src='images/small/image1.png' data-zoom-image="images/large/image1.jpg"/>
+
+<script>
+    $('#zoom_01').elevateZoom({
+    zoomType: "inner",
+cursor: "crosshair",
+zoomWindowFadeIn: 500,
+zoomWindowFadeOut: 750
+   }); 
+</script>
 
  <div class="bot">
     <a href="../index.html" class="parcial">Inicial</a>
@@ -30,7 +44,7 @@
  <div class="form-group">
     <label for="exampleFormControlTextarea1">Cliente</label> 
 
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
   </div>
 </form>
 
@@ -75,6 +89,24 @@ ATENÇÃO: Adicionar Print da interface wireless do roteador mostrando a nova se
 </form>
 <div class="naomuda">
 
+  <div><label for="exampleFormControlTextarea1">CAPAS DE ATENDIMENTO</label></div>
+
+  <button class="btn btn-dark lock" data-clipboard-text="DESCONEXÃO">DESCONEX</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="CONEXÃO LENTA">C. LENTA</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="TROCA DE SENHA / REDE">T. SENHA</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="INFORME DE PAGAMENTO">I. PAGA</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="CONFIGURAÇÃO DE EQUIPAMENTO">CONFIG</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="ATUALIZAÇÃO CADASTRAL">ATUALIZAR</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="CONTESTAÇÃO DE FATURA">CONTESTA</button>
+
+  <button class="btn btn-dark lock" data-clipboard-text="RESERVADO">XXXXXX</button>
+
  <div><label for="exampleFormControlTextarea1">SCRIPT RÁPIDO</label></div>
 
 <div class="centra">
@@ -82,7 +114,7 @@ ATENÇÃO: Adicionar Print da interface wireless do roteador mostrando a nova se
 
 <button class="btn btn-dark ativa2" data-clipboard-text="DESCONEXÃO O.N.U. (CHECAR CABEAMENTO E VERIFICAR CONDIÇÕES DE USO DOS EQUIPAMENTOS DA VOCÊ TELECOM)  O SR. XXXXXXXXX ESTÁ CIENTE QUE CASO SEJA DETECTADO PROBLEMAS NÃO ADVINDO DOS EQUIPAMENTOS DA VOCÊ TELECOM SERÁ COBRADA TAXA DE VISITA TÉCNICA NO VALOR DE R$150,00 -  CIENTE AINDA SOBRE O PRAZO DE 48HS PARA CUMPRIMENTO DO CHAMADO  XXXXXXXXX PORTA XX."><span class="ativo">GERAÇÃO DE O.S<span></button>
 
-    <button class="btn btn-dark" data-clipboard-text="SR(A): XXXXXXXXXX ENTROU EM CONTATO SOLICITANDO O CANCELAMENTO DO PLANO, FOI INFORMADA SORE O HORARIO DE FUNCIONAMENTO E ORIENTADA A AGUARDAR O RETORNO DO SETOR RESPONSÁVEL DENTRO DO PRAZO MÁXIMO DE 24 HORAS EM DIAS UTEIS. MELHOR HORÁRIO PARA O RETORNO XX:XX HORAS, RETORNAR PARA O NÚMERO 96 99999-9999).">CANCELAMENTO</button>
+    <button class="btn btn-dark" data-clipboard-text="SR(A): XXXXXXXXXX ENTROU EM CONTATO SOLICITANDO O CANCELAMENTO DO PLANO, FOI INFORMADA SORE O HORARIO DE FUNCIONAMENTO E ORIENTADA A AGUARDAR O RETORNO DO SETOR RESPONSÁVEL DENTRO DO PRAZO MÁXIMO DE 24 HORAS EM DIAS UTEIS. MELHOR HORÁRIO PARA O RETORNO XX:XX HORAS, RETORNAR PARA O NÚMERO 96 99999-9999).">CANCELAR</button>
 
     <button class="btn btn-dark" data-clipboard-text="SR(A): XXXXXXXXXX SOLICITA DESCONTO REFERENTE AO PERIODO DE 16/03 A 31/03, POIS ESTAVA SEM ACESSO - CLIENTE CIENTE QUE SUA SOLICITAÇÃO SERÁ ANALISADA NO PRAZO DE ATÉ 3 DIAS UTEIS E CASO SEJA CONCEDIDO, O DESCONTO SERÁ LANÇADO NO PROXIMO FATURAMENTO">CONTESTAÇÃO</button>
 
@@ -92,12 +124,13 @@ ATENÇÃO: Adicionar Print da interface wireless do roteador mostrando a nova se
 
     <button class="btn btn-dark" data-clipboard-text="FOI REALIZADO O PROCEDIMENTO DE CHECAR AS CONFIGURACOES E SALVAR E FOI REINICIADA A ONU DO CLIENTE, APOS ISSO O CLIENTE CONFIRMA NORMALIZACAO NO ACESSO.">Resolvido</button>
 
-    
+<button class="btn btn-dark" data-clipboard-text="-CORRIGELOGINONU
+-FACTORY
+-MAC APAGADO + REINCIADO OLT
+-DESPROVISIONAMENTO
 
-<button class="btn btn-dark" data-clipboard-text="DISPOSITIVOS CONECTADOS
--SINAL FIBRA
--PING GOOGLE
--0% PERDAS.">Procedimento OLT</button>
+POREM ATE O MOMENTO CLIENTE CONTINUA COM DESCONEÃO/CONEXÃO LENTA. 
+">TESTE EFETUADO</button>
 
 <button class="btn btn-dark" data-clipboard-text="Prezado assinante, identificamos uma instabilidade no circuito de internet, no momento sentirá lentidão ou desconexão!
 Contudo, já estamos resolvendo junto a nossa equipe de infraestrutura e logo estará com sua velocidade para navegação normalizada.">Falha Massiva</button>
@@ -158,6 +191,7 @@ CONTATO: ">Ciente Taxa</button>
 </div>
 </div>
 
+
 <h6>Lembretes</h6>
 
 <h4><p align="center">VENCIMENTOS 01, 05 E 10 inicia o ciclo todo dia 20 de cada mês</p></h4>
@@ -174,7 +208,6 @@ A franquia dos planos empresariais é 1000GB (independente de tecnologia ou loca
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
