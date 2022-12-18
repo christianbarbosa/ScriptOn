@@ -138,9 +138,10 @@ button {
 	color:width;
 }
 .ativa2{
-	background-image: url("img/cirene.gif");
-	background-size: 1px;
+	background-image: url("img/tec.gif");
 	font-weight: bolder;
+  color: blue;
+  background-repeat: round;
 }
 .btn-dark{
 	font-weight: bolder;
